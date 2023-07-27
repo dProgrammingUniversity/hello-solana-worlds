@@ -1,11 +1,11 @@
 
 @program_id("F1ipperKF9EfD821ZbbYjS319LXYiBmjhzkkf5a26rC")
 contract hello_solana_worlds {
-    bool private value = true;
+    bool private value = false;
 
     @payer(payer)
     constructor(address payer) {
-        print("Hello, World!");
+        print("Hello, Solana Worlds!");
     }
 
     /// A message that can be called on instantiated contracts.
